@@ -107,16 +107,16 @@
     };
     git = {
       enable = true;
-      userName = "jaysa68";
-      userEmail = "gh@jaysa.net";
+      userName = "LGgameLAB";
+      userEmail = "lukegonsalves07@gmail.com";
     };
     neovim = {
       enable = true;
       defaultEditor = true;
       extraConfig = ''
         set background=dark
-	colorscheme gruvbox
-	set number
+        colorscheme gruvbox
+        set number
       '';
       plugins = with pkgs.vimPlugins; [
         gruvbox
@@ -151,7 +151,7 @@
       enableGitIntegration = true;
       themeFile = "gruvbox-dark-hard";
       font = {
-        name = "hack";
+        name = "Terminus";
         #size = 20.0;
       };
     };
@@ -167,7 +167,7 @@
       output = {
         HDMI-A-2 = {
 	  scale = "1.6";
-	  bg = "/home/j/ja/jaysa/remote/sway-home-manager/wp-1.jpg fill";
+	  bg = "/home/l/lu/lukegon/remote/sway-home-manager/wp-1.jpg fill";
 	};
       };
       modifier = "Mod4";
